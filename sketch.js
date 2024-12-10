@@ -10,7 +10,7 @@ function draw() {
     for (let y = -windowHeight; y < windowHeight; y += 10) {
       noStroke();
   fill(0,random(60,90));
-  square(x+mouseY*0.1,y+mouseX*0.1,9+sin(frameCount*0.01));
+  square(x+mouseY*0.5,y+mouseX*0.5,9+sin(frameCount*0.01));
 }
   }}
 
